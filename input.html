@@ -3,7 +3,10 @@
         <script>
             let doIt= () => {
                 inputText=document.getElementById("userInput").value;
-                alert(Number(inputText)+1);
+                let val = Number(inputText);
+                if(val>15)
+                alert("Exceeding 15kgs");
+            
             }
 
         </script>
